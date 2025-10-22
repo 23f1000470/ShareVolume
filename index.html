@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="auto">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bristol Myers Squibb - Shares Outstanding</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1 id="entity-name" class="mt-4">Bristol Myers Squibb - Shares Outstanding</h1>
+        <div id="status" class="alert alert-info mt-3" role="alert" aria-live="polite">Loading data...</div>
+
+        <div class="row mt-3">
+            <div class="col-md-6">
+                <h2>Max Shares</h2>
+                <p>Entity: <span id="share-entity-name"></span></p>
+                <p>Value: <span id="share-max-value"></span></p>
+                <p>FY: <span id="share-max-fy"></span></p>
+            </div>
+            <div class="col-md-6">
+                <h2>Min Shares</h2>
+                <p>Entity: <span id="share-entity-name"></span></p>
+                <p>Value: <span id="share-min-value"></span></p>
+                <p>FY: <span id="share-min-fy"></span></p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

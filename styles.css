@@ -1,0 +1,26 @@
+body {
+    font-family: sans-serif;
+    background-color: #f8f9fa;
+    color: #212529;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.alert {
+    margin-top: 15px;
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #343a40;
+        color: #f8f9fa;
+    }
+
+    .alert {
+        color: #212529;
+    }
+}
